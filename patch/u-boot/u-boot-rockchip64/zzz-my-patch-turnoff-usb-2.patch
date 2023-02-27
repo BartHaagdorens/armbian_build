@@ -1,0 +1,12 @@
+diff --git a/include/configs/evb_rk3399.h-prepatch b/include/configs/evb_rk3399.h
+index 6320914207..66ff6699c3 100644
+--- a/include/configs/evb_rk3399.h-prepatch
++++ b/include/configs/evb_rk3399.h
+@@ -10,7 +10,4 @@
+ 
+ #define SDRAM_BANK_SIZE			(2UL << 30)
+ 
+-#define CONFIG_USB_OHCI_NEW
+-#define CONFIG_SYS_USB_OHCI_MAX_ROOT_PORTS     2
+-
+ #endif
