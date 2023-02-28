@@ -1,0 +1,14 @@
+diff --git a/arch/arm/dts/rk3399-rock-pi-4.dtsi-prepatch b/arch/arm/dts/rk3399-rock-pi-4.dtsi
+index b28888ea92..fc751f348d 100644
+--- a/arch/arm/dts/rk3399-rock-pi-4.dtsi-prepatch
++++ b/arch/arm/dts/rk3399-rock-pi-4.dtsi
+@@ -593,6 +593,9 @@
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <&sdmmc_clk &sdmmc_cd &sdmmc_cmd &sdmmc_bus4>;
+ 	status = "okay";
++	clock-frequency = <150000000>;
++	clock-freq-min-max = <100000 150000000>;
++	sd-uhs-sdr104;
+ };
+ 
+ &sdhci {
