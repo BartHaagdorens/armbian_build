@@ -2,11 +2,12 @@ diff --git a/configs/rock-pi-4-rk3399_defconfig-prepatch b/configs/rock-pi-4-rk3
 index ec33e9d21e..a58e021385 100644
 --- a/configs/rock-pi-4-rk3399_defconfig-prepatch
 +++ b/configs/rock-pi-4-rk3399_defconfig
-@@ -45,6 +45,7 @@ CONFIG_MMC_DW=y
+@@ -45,6 +45,8 @@ CONFIG_MMC_DW=y
  CONFIG_MMC_DW_ROCKCHIP=y
  CONFIG_MMC_SDHCI=y
  CONFIG_MMC_SDHCI_ROCKCHIP=y
 +CONFIG_MMC_IO_VOLTAGE=y
++CONFIG_MMC_UHS_SUPPORT=y
  CONFIG_SF_DEFAULT_BUS=1
  CONFIG_SPI_FLASH_GIGADEVICE=y
  CONFIG_SPI_FLASH_WINBOND=y
